@@ -22,7 +22,7 @@ const videos: Video[] = [
   {
     id: '1',
     title: "From Child Labor to Class Topper: Raju's Journey",
-    thumbnail: "https://picsum.photos/seed/indian_children_laughing/1200/800",
+    thumbnail: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
     duration: "5:20",
     category: "Vidya",
     description: "Raju was working in a tea stall to support his family. Watch how our Vidya initiative helped him return to school and excel.",
@@ -31,7 +31,7 @@ const videos: Video[] = [
   {
     id: '2',
     title: "Mobile Clinic: Healing Remote Villages",
-    thumbnail: "https://picsum.photos/seed/medical_help/400/300",
+    thumbnail: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
     duration: "3:45",
     category: "Swasthya",
     description: "Our mobile medical units travel to the most inaccessible areas to provide life-saving healthcare.",
@@ -40,7 +40,7 @@ const videos: Video[] = [
   {
     id: '3',
     title: "10,000 Meals Served This Diwali",
-    thumbnail: "https://picsum.photos/seed/food_serving/400/300",
+    thumbnail: "https://images.unsplash.com/photo-1593113589914-07553e107287?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
     duration: "2:15",
     category: "Annadaan",
     description: "Celebrating the festival of lights by spreading the light of hope and nutrition.",
@@ -49,7 +49,7 @@ const videos: Video[] = [
   {
     id: '4',
     title: "Dignity for the Elderly: A New Home",
-    thumbnail: "https://picsum.photos/seed/elderly_indian/400/300",
+    thumbnail: "https://images.unsplash.com/photo-1516880711640-ef7daf81b62e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
     duration: "4:10",
     category: "Seva",
     description: "Providing shelter, care, and companionship to abandoned senior citizens. See how your support brings smiles to their faces.",
@@ -109,12 +109,12 @@ export default function App() {
   const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
 
   const heroImages = [
-    "https://picsum.photos/seed/happy_indian_child/1920/1080",
-    "https://picsum.photos/seed/smiling_elderly_indian/1920/1080",
-    "https://picsum.photos/seed/joyful_indian_woman/1920/1080",
-    "https://picsum.photos/seed/cheerful_indian_boy/1920/1080",
-    "https://picsum.photos/seed/indian_village_school/1920/1080",
-    "https://picsum.photos/seed/indian_food_distribution/1920/1080"
+    "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+    "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+    "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+    "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+    "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+    "https://images.unsplash.com/photo-1584515933487-779824d29309?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
   ];
 
   useEffect(() => {
@@ -350,7 +350,7 @@ export default function App() {
             >
               <div className="h-56 overflow-hidden relative">
                 <img 
-                  src="https://picsum.photos/seed/food_distribution/800/600" 
+                  src="https://images.unsplash.com/photo-1518398046578-8cca57782e17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="Annadaan" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
@@ -381,7 +381,7 @@ export default function App() {
             >
               <div className="h-56 overflow-hidden relative">
                 <img 
-                  src="https://picsum.photos/seed/education_india/800/600" 
+                  src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="Vidya" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
@@ -412,7 +412,7 @@ export default function App() {
             >
               <div className="h-56 overflow-hidden relative">
                 <img 
-                  src="https://picsum.photos/seed/medical_camp/800/600" 
+                  src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                   alt="Swasthya" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   referrerPolicy="no-referrer"
